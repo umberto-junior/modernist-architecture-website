@@ -29,7 +29,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header id="header" class="scroll">
+    <header id="header">
         <div class="header__mask">
             <h1>Modernist<br>Architecture</h1>
         </div>
@@ -43,23 +43,23 @@
     </header>
 
     <!-- Navigation -->
-    <nav id="nav">
-        <a href="#header" class="logo">Modernist</a>
-        <ul class="menu">
-            <li class="menu__item">
-                <a href="#intro" class="menu__link">Intro</a>
+    <nav id="nav" role="navigation" aria-label="Main Navigation">
+        <a href="#header" class="logo" aria-label="Go to homepage">Modernist</a>
+        <ul class="menu" role="menubar">
+            <li class="menu__item" role="none">
+                <a href="#intro" class="menu__link" role="menuitem" tabindex="0">Intro</a>
             </li>
-            <li class="menu__item">
-                <a href="#origin" class="menu__link">Origin</a>
+            <li class="menu__item" role="none">
+                <a href="#origin" class="menu__link" role="menuitem" tabindex="0">Origin</a>
             </li>
-            <li class="menu__item">
-                <a href="#preservation" class="menu__link">Preservation</a>
+            <li class="menu__item" role="none">
+                <a href="#preservation" class="menu__link" role="menuitem" tabindex="0">Preservation</a>
             </li>
         </ul>
     </nav>
 
     <!-- Section Intro -->
-    <section id="intro" class="scroll">
+    <section id="intro">
         <article class="container grid grid__intro">
             <hgroup class="headings__title headings__title--intro">
                 <h2 class="title--small">Nr. 01</h2>
@@ -84,7 +84,7 @@
     </section>
 
     <!-- Section Origin -->
-    <section id="origin" class="scroll">
+    <section id="origin">
         <article class="container grid grid__origin">
             <hgroup class="headings__title headings__title--origin">
                 <h2 class="title--small">Nr. 02</h2>
@@ -128,7 +128,7 @@
         </article>
     </section>
 
-    <section id="preservation" class="scroll">
+    <section id="preservation">
         <article class="container grid grid__preservation">
             <hgroup class="headings__title">
                 <h2 class="title--small">Nr. 03</h2>
